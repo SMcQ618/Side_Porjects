@@ -7,7 +7,6 @@
 #include <vector>
 #include <string>
 
-
 //this will display the tasks the user has to do
 void displayTasks(const std::vector<std::string> &tasks) {
     std::cout << "To-Do:" << std::endl;
@@ -15,7 +14,7 @@ void displayTasks(const std::vector<std::string> &tasks) {
         std::cout << i + 1 << ". " << tasks[i] << std::endl;
     }
 }
-
+//this is the main thing of the function
 int main() {
     std::vector<std::string> tasks;
     std::string task;
