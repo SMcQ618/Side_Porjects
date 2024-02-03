@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Side_Porjects
         "To-Do list.cpp")
+add_executable(Side_Projects
+        "Password_gen.cpp")
